@@ -1,5 +1,6 @@
 "use strict";
 
+// Exercise 2
 gsap.to(".ball", { duration: 2, x: 400, stagger: 0.2, rotate: 200 });
 /*
 gsap.to(".ball", { duration: 2, x: 400, stagger: 0.2 });
