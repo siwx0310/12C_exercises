@@ -1,0 +1,26 @@
+.box {
+  width: 96px;
+  height: 96px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#generator {
+  cursor: pointer;
+  background-color: bisque;
+  user-select: none;
+}
+
+#generator:active {
+  transform: translate(2px,2px);
+  filter: brightness(105%);
+  
+}
+
+#generated {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}

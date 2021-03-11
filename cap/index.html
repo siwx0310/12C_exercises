@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cap | Siw</title>
+    <style>
+      /*scale the svg to smaller size*/
+      #svg {
+        transform: scale(0.4);
+        margin-top: -30vh;
+      }
+
+      #visor {
+        fill: transparent;
+      }
+      #crown {
+        fill: transparent;
+      }
+      #shadow_image {
+        pointer-events: none;
+      }
+
+      #colors {
+        margin-top: -30vh;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>pick the cap and select a color!</h1>
+    <div id="color_selector">
+      <section id="svg"></section>
+
+      <section id="colors">
+        <svg width="500" height="100">
+          <rect
+            class="color_btn"
+            fill="blue"
+            id="color1"
+            x="40"
+            y="40"
+            width="40"
+            height="40"
+            stroke-width="5"
+          />
+          <rect
+            class="color_btn"
+            fill="green"
+            id="color2"
+            x="90"
+            y="40"
+            width="40"
+            height="40"
+            stroke-width="5"
+          />
+          <rect
+            class="color_btn"
+            fill="yellow"
+            id="color3"
+            x="140"
+            y="40"
+            width="40"
+            height="40"
+            stroke-width="5"
+          />
+          <rect
+            class="color_btn"
+            fill="red"
+            id="color4"
+            x="190"
+            y="40"
+            width="40"
+            height="40"
+            stroke-width="5"
+          />
+
+          <rect
+            class="color_btn"
+            fill="pink"
+            id="color5"
+            x="240"
+            y="40"
+            width="40"
+            height="40"
+            stroke-width="5"
+          />
+        </svg>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
